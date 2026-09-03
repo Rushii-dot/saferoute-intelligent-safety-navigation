@@ -248,7 +248,51 @@ export const SearchPanel: React.FC<SearchPanelProps> = ({ routeState, setRouteSt
           } catch (error) {
             console.error(`Safety analysis failed for route ${index}:`, error);
           }
-        }));
+        })).then(() => {
+          // After all safety data is loaded, re-evaluate the "Recommended" route
+          // based on safety-first priority (highest safety score).
+          setRouteState(prev => {
+            if (prev.routes.length <= 1) return prev;
+
+            // Find the route with the highest safety score
+            let bestIndex = 0;
+            let maxScore = -1;
+
+            prev.routes.forEach((route, index) => {
+              const score = route.safetyData?.safetyScore || 0;
+              if (score > maxScore) {
+                maxScore = score;
+                bestIndex = index;
+              } else if (score === maxScore && maxScore !== -1) {
+                // Tie-breaker: use the faster route (usually index 0 from OSRM)
+                if (index < bestIndex) {
+                  bestIndex = index;
+                }
+              }
+            });
+
+            // The fastest route is always index 0 as per OSRM conventions in this app
+            const fastestIndex = 0;
+
+            const updatedRoutes = prev.routes.map((route, index) => {
+              let label = `Route ${index + 1}`;
+              let isRecommended = false;
+
+              if (index === bestIndex) {
+                label = 'Recommended';
+                isRecommended = true;
+              } else if (index === fastestIndex) {
+                label = 'Fastest';
+              } else {
+                label = 'Alternative';
+              }
+
+              return { ...route, label, isRecommended };
+            });
+
+            return { ...prev, routes: updatedRoutes };
+          });
+        });
         
         const routeCountMsg = newRoutes.length === 1 
           ? 'Found 1 direct route for your journey.' 
