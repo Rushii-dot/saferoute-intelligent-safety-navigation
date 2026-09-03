@@ -5,4 +5,4 @@
 
 [functions]
   external_node_modules = ["express", "path"]
-  node_bundle = true
+  node_bundler = "esbuild"
