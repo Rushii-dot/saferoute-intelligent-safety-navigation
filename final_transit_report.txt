@@ -1,0 +1,118 @@
+Fetching routes...
+
+--- ROUTE 1 ---
+Total Raw: 13
+Total Unique: 12
+
+[RECORD 1]
+Name: Unnamed
+Place ID: 51ff6f36678e6b5240590fe99a93bcb93240f00103f9012e86d21d03000000
+Lat: 18.7255337
+Lon: 73.6805666
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 2
+
+[RECORD 2]
+Name: Maruti Mandir Bus top
+Place ID: 516fdb5262b26b524059c02f194740b83240f00103f9011649901d030000009203154d6172757469204d616e6469722042757320746f70
+Lat: 18.7197308
+Lon: 73.6827627
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 3, 4
+
+[RECORD 3]
+Name: Jijamata chowk
+Place ID: 519dd26641cd6b5240591aa3e49fbeb83240f00103f9018abcca1d0300000092030e4a696a616d6174612063686f776b
+Lat: 18.7216587
+Lon: 73.6844028
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 3
+
+[RECORD 4]
+Name: Unnamed
+Place ID: 515a01744ea26b524059c4f5d7506ab93240f00103f901a2c3ca1d03000000
+Lat: 18.7242785
+Lon: 73.6817814
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 3
+
+[RECORD 5]
+Name: Unnamed
+Place ID: 51756ca928836b5240599eda4dbad2b73240f00103f901f494ca1d03000000
+Lat: 18.7180592
+Lon: 73.6798803
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 4
+
+[RECORD 6]
+Name: Unnamed
+Place ID: 51b1c288d83b6b52405937fc622530b73240f00103f9011a93ca1d03000000
+Lat: 18.7155784
+Lon: 73.6755277
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 5
+
+[RECORD 7]
+Name: Dehu Road
+Place ID: 51efdcc545ff6e5240590ffe698f17ae3240f00103f90152c19557010000009203094465687520526f6164
+Lat: 18.680047
+Lon: 73.7343306
+Categories: public_transport, public_transport.train
+Reason: "public_transport"
+Samples: 10
+
+[RECORD 8]
+Name: Unnamed
+Place ID: 51a4b3f43dfe6e5240596629a5422bae3240f00102f901107f754e00000000
+Lat: 18.68034760029095
+Lon: 73.73426770111706
+Categories: public_transport, public_transport.platform
+Reason: "public_transport"
+Samples: 10
+
+[RECORD 9]
+Name: Unnamed
+Place ID: 51be667a0d036f524059b4c4278925ae3240f00102f901117f754e00000000
+Lat: 18.680260250290942
+Lon: 73.7345613189054
+Categories: public_transport, public_transport.platform
+Reason: "public_transport"
+Samples: 10
+
+[RECORD 10]
+Name: Bhakti Shakti
+Place ID: 513274eca09271524059a6dc4d929da93240f00103f9017ffc722d0300000092030d4268616b7469205368616b7469
+Lat: 18.6625606
+Lon: 73.7745745
+Categories: public_transport, public_transport.subway
+Reason: "public_transport"
+Samples: 13
+
+[RECORD 11]
+Name: Yamuna Nagar
+Place ID: 511f5267495b725240599298934d03aa3240f00103f9018f31218e0000000092030c59616d756e61204e61676172
+Lat: 18.6641129
+Lon: 73.7868217
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 14
+
+[RECORD 12]
+Name: Shiv Parvati Mandir
+Place ID: 51e15dd32849735240597e8d40a88baa3240f00103f9017427268402000000920313536869762050617276617469204d616e646972
+Lat: 18.6661935
+Lon: 73.8013403
+Categories: public_transport, public_transport.bus, public_transport.platform
+Reason: "public_transport"
+Samples: 17
+
+PROXIMITY CHECK (ROUTE 1)
+- DUPLICATE? "Dehu Road" and "undefined" dist: 34.1m
+- DUPLICATE? "Dehu Road" and "undefined" dist: 34.0m
+- DUPLICATE? "undefined" and "undefined" dist: 32.4m

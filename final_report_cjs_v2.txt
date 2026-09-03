@@ -1,0 +1,19 @@
+JSON Start: {"code":"Ok","routes":[{"legs":[{"steps":[],"weight":975.6,"summary":"","duration":975.6,"distance":
+Auditing 1 routes...
+
+--- ROUTE 1 ---
+Total Raw: 9
+Total Unique place_ids: 8
+[REC 1] Unnamed | 51b1c288d83b6b52405937fc622530b73240f00103f9011a93ca1d03000000 | 18.7155784,73.6755277 | public_transport, public_transport.bus, public_transport.platform | Sample: 3
+[REC 2] Begdewadi | 513acdf6956a6d524059e11c337557b33240f00102f9010e7f754e00000000920309426567646577616469 | 18.7005533,73.7096305 | public_transport, public_transport.platform | Sample: 6
+[REC 3] Begdewadi | 510a0727746a6d524059a79e9b6c4db33240f00102f9010f7f754e00000000920309426567646577616469 | 18.7004002,73.7096224 | public_transport, public_transport.platform | Sample: 6
+[REC 4] Unnamed | 51a4b3f43dfe6e5240596629a5422bae3240f00102f901107f754e00000000 | 18.68034760029095,73.73426770111706 | public_transport, public_transport.platform | Sample: 8
+[REC 5] Dehu Road | 51efdcc545ff6e5240590ffe698f17ae3240f00103f90152c19557010000009203094465687520526f6164 | 18.680047,73.7343306 | public_transport, public_transport.train | Sample: 9
+[REC 6] Unnamed | 51be667a0d036f524059b4c4278925ae3240f00102f901117f754e00000000 | 18.680260250290942,73.7345613189054 | public_transport, public_transport.platform | Sample: 9
+[REC 7] Bhakti Shakti | 513274eca09271524059a6dc4d929da93240f00103f9017ffc722d0300000092030d4268616b7469205368616b7469 | 18.6625606,73.7745745 | public_transport, public_transport.subway | Sample: 12
+[REC 8] Shiv Parvati Mandir | 51e15dd32849735240597e8d40a88baa3240f00103f9017427268402000000920313536869762050617276617469204d616e646972 | 18.6661935,73.8013403 | public_transport, public_transport.bus, public_transport.platform | Sample: 17
+PROXIMITY 1:
+DUPE? Begdewadi / Begdewadi dist: 17.0m
+DUPE? undefined / Dehu Road dist: 34.1m
+DUPE? undefined / undefined dist: 32.4m
+DUPE? Dehu Road / undefined dist: 34.0m

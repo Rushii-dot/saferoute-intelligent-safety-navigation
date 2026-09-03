@@ -1,0 +1,70 @@
+Fetching OSRM routes...
+
+--- ROUTE 1 AUDIT ---
+Distance: 17.94 km
+Coordinates: 301
+Sample Points: 17
+Total Raw Transit Signals: 7
+Total Unique place_ids: 6
+
+[TRANSIT 1]
+Name: Unnamed
+Place ID: 51b1c288d83b6b52405937fc622530b73240f00103f9011a93ca1d03000000
+Coords: 18.7155784, 73.6755277
+Categories: public_transport, public_transport.bus, public_transport.platform
+Rule: "public_transport"
+Found at Samples: Sample 3
+
+[TRANSIT 2]
+Name: Unnamed
+Place ID: 51a4b3f43dfe6e5240596629a5422bae3240f00102f901107f754e00000000
+Coords: 18.68034760029095, 73.73426770111706
+Categories: public_transport, public_transport.platform
+Rule: "public_transport"
+Found at Samples: Sample 8, Sample 9
+
+[TRANSIT 3]
+Name: Dehu Road
+Place ID: 51efdcc545ff6e5240590ffe698f17ae3240f00103f90152c19557010000009203094465687520526f6164
+Coords: 18.680047, 73.7343306
+Categories: public_transport, public_transport.train
+Rule: "public_transport"
+Found at Samples: Sample 9
+
+[TRANSIT 4]
+Name: Unnamed
+Place ID: 51be667a0d036f524059b4c4278925ae3240f00102f901117f754e00000000
+Coords: 18.680260250290942, 73.7345613189054
+Categories: public_transport, public_transport.platform
+Rule: "public_transport"
+Found at Samples: Sample 9
+
+[TRANSIT 5]
+Name: Bhakti Shakti
+Place ID: 513274eca09271524059a6dc4d929da93240f00103f9017ffc722d0300000092030d4268616b7469205368616b7469
+Coords: 18.6625606, 73.7745745
+Categories: public_transport, public_transport.subway
+Rule: "public_transport"
+Found at Samples: Sample 12
+
+[TRANSIT 6]
+Name: Yamuna Nagar
+Place ID: 511f5267495b725240599298934d03aa3240f00103f9018f31218e0000000092030c59616d756e61204e61676172
+Coords: 18.6641129, 73.7868217
+Categories: public_transport, public_transport.bus, public_transport.platform
+Rule: "public_transport"
+Found at Samples: Sample 14
+
+--- PROXIMITY CHECK (ROUTE 1) ---
+POSSIBLE PHYSICAL DUPLICATE:
+- undefined (51a4b3f43dfe6e5240596629a5422bae3240f00102f901107f754e00000000)
+- Dehu Road (51efdcc545ff6e5240590ffe698f17ae3240f00103f90152c19557010000009203094465687520526f6164)
+  Distance: 34.1 meters
+POSSIBLE PHYSICAL DUPLICATE:
+- undefined (51a4b3f43dfe6e5240596629a5422bae3240f00102f901107f754e00000000)
+- undefined (51be667a0d036f524059b4c4278925ae3240f00102f901117f754e00000000)
+  Distance: 32.4 meters
+POSSIBLE PHYSICAL DUPLICATE:
+- Dehu Road (51efdcc545ff6e5240590ffe698f17ae3240f00103f90152c19557010000009203094465687520526f6164)
+- undefined (51be667a0d036f524059b4c4278925ae3240f00102f901117f754e00000000)
+  Distance: 34.0 meters

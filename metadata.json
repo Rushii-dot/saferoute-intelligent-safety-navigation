@@ -1,0 +1,6 @@
+{
+  "name": "SafeRoute",
+  "description": "Intelligent route recommendation system focusing on safety, distance, and travel time.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

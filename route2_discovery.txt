@@ -1,0 +1,12 @@
+
+Testing end: 73.79,18.67
+Found 1 routes.
+Route 1 Transit: 12
+
+Testing end: 73.81,18.68
+Found 1 routes.
+Route 1 Transit: 12
+
+Testing end: 73.78,18.66
+Found 1 routes.
+Route 1 Transit: 14
