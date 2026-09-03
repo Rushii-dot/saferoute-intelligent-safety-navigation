@@ -52,7 +52,7 @@ app.post("/api/infrastructure", async (req, res) => {
   let searchLimit = 100;    // Increased default for better coverage
 
   if (totalDistance > 30000) { // Very long routes (>30km)
-    sampleInterval = 8000;
+    sampleInterval = Math.max(8000, Math.floor(totalDistance / 8));
     searchRadius = 4000;
     searchLimit = 100;
   } else if (totalDistance > 15000) { // Long routes (15-30km)
