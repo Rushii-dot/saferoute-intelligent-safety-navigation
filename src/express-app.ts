@@ -51,7 +51,11 @@ app.post("/api/infrastructure", async (req, res) => {
   let searchRadius = 500;   // Default for short routes
   let searchLimit = 100;    // Increased default for better coverage
 
-  if (totalDistance > 15000) { // Long routes (>15km)
+  if (totalDistance > 30000) { // Very long routes (>30km)
+    sampleInterval = 8000;
+    searchRadius = 4000;
+    searchLimit = 100;
+  } else if (totalDistance > 15000) { // Long routes (15-30km)
     sampleInterval = 4500;
     searchRadius = 3000;
     searchLimit = 500;
